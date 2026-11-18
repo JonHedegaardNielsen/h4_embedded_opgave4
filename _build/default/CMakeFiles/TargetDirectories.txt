@@ -1,0 +1,4 @@
+/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/A___default_default_XC8_compile.dir
+/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/__default_image_1XG1i3ED.dir
+/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/edit_cache.dir
+/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/rebuild_cache.dir
