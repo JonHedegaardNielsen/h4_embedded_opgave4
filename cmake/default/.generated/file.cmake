@@ -15,7 +15,13 @@ foreach(source_file ${__default_default_XC8_FILE_TYPE_assemblePreprocess})
         set_source_files_properties(${source_file} PROPERTIES INCLUDE_DIRECTORIES "$<PATH:NORMAL_PATH,$<PATH:REMOVE_FILENAME,${source_file}>>")
 endforeach()
 
-set(__default_default_XC8_FILE_TYPE_compile "${CMAKE_CURRENT_SOURCE_DIR}/../../main.c")
+set(__default_default_XC8_FILE_TYPE_compile
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../main.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../src/counter.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../src/display.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../src/i2c.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../src/timer.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../src/uart.c")
 set_source_files_properties(${__default_default_XC8_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
 set(__default_default_XC8_FILE_TYPE_link)
 set(__default_default_XC8_FILE_TYPE_objcopy_avr)

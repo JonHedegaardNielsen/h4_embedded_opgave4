@@ -4,5 +4,35 @@
   "command": "/opt/microchip/xc8/v4.00/bin/xc8-cc -DXPRJ_default=default -D__ATmega328PB__ -c -mcpu=ATmega328PB -x c -mdfp=/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/main.c.o -c /home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/main.c",
   "file": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/main.c",
   "output": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/main.c.o"
+},
+{
+  "directory": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default",
+  "command": "/opt/microchip/xc8/v4.00/bin/xc8-cc -DXPRJ_default=default -D__ATmega328PB__ -c -mcpu=ATmega328PB -x c -mdfp=/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/counter.c.o -c /home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/counter.c",
+  "file": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/counter.c",
+  "output": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/counter.c.o"
+},
+{
+  "directory": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default",
+  "command": "/opt/microchip/xc8/v4.00/bin/xc8-cc -DXPRJ_default=default -D__ATmega328PB__ -c -mcpu=ATmega328PB -x c -mdfp=/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/display.c.o -c /home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/display.c",
+  "file": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/display.c",
+  "output": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/display.c.o"
+},
+{
+  "directory": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default",
+  "command": "/opt/microchip/xc8/v4.00/bin/xc8-cc -DXPRJ_default=default -D__ATmega328PB__ -c -mcpu=ATmega328PB -x c -mdfp=/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/i2c.c.o -c /home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/i2c.c",
+  "file": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/i2c.c",
+  "output": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/i2c.c.o"
+},
+{
+  "directory": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default",
+  "command": "/opt/microchip/xc8/v4.00/bin/xc8-cc -DXPRJ_default=default -D__ATmega328PB__ -c -mcpu=ATmega328PB -x c -mdfp=/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/timer.c.o -c /home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/timer.c",
+  "file": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/timer.c",
+  "output": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/timer.c.o"
+},
+{
+  "directory": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default",
+  "command": "/opt/microchip/xc8/v4.00/bin/xc8-cc -DXPRJ_default=default -D__ATmega328PB__ -c -mcpu=ATmega328PB -x c -mdfp=/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/uart.c.o -c /home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/uart.c",
+  "file": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/uart.c",
+  "output": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/_build/default/CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/uart.c.o"
 }
 ]

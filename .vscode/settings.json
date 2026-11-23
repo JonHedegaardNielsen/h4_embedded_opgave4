@@ -1,0 +1,15 @@
+{
+    "cmake.sourceDirectory": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/cmake/default",
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}/_build/default",
+    "mplab.clangd.arguments": [
+        "--header-insertion=never"
+    ],
+    "mplab.clangd.path": "/opt/microchip/xc8/v4.00/bin/xc8-clangd",
+    "memory-inspector.debugTypes": [
+        "arm-debugger",
+        "embedded-debug",
+        "gdb",
+        "gdbtarget",
+        "mplab-core-da"
+    ]
+}

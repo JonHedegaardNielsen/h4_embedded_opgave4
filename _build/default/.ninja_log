@@ -1,0 +1,19 @@
+# ninja log v7
+1	35	1795087662707071074	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/main.c.o	491472b66d198d2e
+47	74	1795087662753071735	/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/out/default.elf	9741f0472108e499
+2	41	1795080337707121130	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/button.c.o	e16bf0d976417a9b
+2	47	1795087662708071088	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/counter.c.o	57f2ec3bdbb0fbb8
+2	54	1795087294672900722	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/uart.c.o	3c01e14b79510ac
+1	36	1795465593045212127	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/main.c.o	491472b66d198d2e
+3	38	1795465593048189683	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/timer.c.o	13934fdab02f9348
+2	41	1795465593047889904	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/i2c.c.o	ed00cb510c665eeb
+1	50	1795465593046212144	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/counter.c.o	57f2ec3bdbb0fbb8
+2	60	1795465593047566942	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/display.c.o	5d60e7b882f482d8
+3	62	1795465593048502667	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/uart.c.o	3c01e14b79510ac
+62	99	1795465593106213188	/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/out/default.elf	5f47b92dcc352edf
+1	57	1795465643793093693	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/counter.c.o	57f2ec3bdbb0fbb8
+57	80	1795465643849094664	/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/out/default.elf	5f47b92dcc352edf
+1	47	1795465656824319670	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/counter.c.o	57f2ec3bdbb0fbb8
+47	69	1795465656870320467	/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/out/default.elf	5f47b92dcc352edf
+1	43	1795465679838718395	CMakeFiles/A___default_default_XC8_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/src/counter.c.o	57f2ec3bdbb0fbb8
+43	64	1795465679880719122	/home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/out/default.elf	5f47b92dcc352edf
