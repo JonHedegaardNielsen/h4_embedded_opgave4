@@ -52,4 +52,10 @@ A___default_link_rule( __default_image_1XG1i3ED)
 
 #Add objcopy steps
 A___default_objcopy_avr_rule(__default_image_1XG1i3ED)
+add_custom_target(
+    merge_loadable_files ALL
+    COMMAND "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/hexmate"  /home/jon/Projects/Programming/Embedded/h4_embedded_opgave4/main.hex ${CMAKE_CURRENT_SOURCE_DIR}/../../out/default.hex  -O${CMAKE_CURRENT_SOURCE_DIR}/../../out/default-unified.hex
+    BYPRODUCTS ${CMAKE_CURRENT_SOURCE_DIR}/../../out/default-unified.hex
+    COMMENT "Merging loadable hex files into unified image")
+add_dependencies(merge_loadable_files __default_image_1XG1i3ED)
 

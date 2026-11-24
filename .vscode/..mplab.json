@@ -32,7 +32,7 @@
             "files": [
                 {
                     "include": "**/*",
-                    "exclude": "**/@(build|_build|out|cmake|.vscode)/**/*"
+                    "exclude": "**/@(build|build-avr|_build|out|cmake|.vscode)/**/*"
                 }
             ]
         }

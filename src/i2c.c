@@ -10,8 +10,8 @@ void i2c_init(void)
     /* Træk-op på TWI-benene (SDA0/PC4 og SCL0/PC5). */
     PORTC |= (1 << PC4) | (1 << PC5);
 
-    TWSR0 = 0x00; /* prescaler 1 */
-    TWBR0 = 72;   /* 16 MHz / (16 + 2*72) = 100 kHz */
+    TWSR0 = 0x00;                                  /* prescaler 1 */
+    TWBR0 = (uint8_t)((F_CPU / 100000UL - 16UL) / 2UL); /* ca. 100 kHz */
     TWCR0 = (1 << TWEN);
 }
 

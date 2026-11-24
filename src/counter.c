@@ -7,11 +7,8 @@
 #include "../include/counter.h"
 #include "../include/uart.h"
 
-/*
- * Timer1 kører med prescaler 1024 -> 61 us pr. tick.
- * 330 ticks svarer til ca. 20 ms og bruges som debounce-vindue.
- */
-#define BUTTON_DEBOUNCE_TICKS 330UL
+/* Timer1: 1024 prescaler -> ca. 20 ms debounce ved både 8 og 16 MHz. */
+#define BUTTON_DEBOUNCE_TICKS ((F_CPU / 1024UL) * 20UL / 1000UL)
 
 static volatile uint16_t ext_interrupt_count = 0;
 static volatile uint8_t display_update_pending = 0;
